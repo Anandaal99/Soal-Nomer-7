@@ -1,0 +1,14 @@
+public class Main {
+    public static void main(String[] args) {
+        int u = 5;
+        int s,k;
+        for (s = 0; s < u; s++) {
+            for(k = 0; k <= u-s; k++) {
+                System.out.print(" ");
+            }
+            for (int q = 0; q <= s; q++) {
+                System.out.print(q);
+            }
+            System.out.println();
+        }}
+}
